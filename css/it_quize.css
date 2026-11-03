@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, #0f0c20 0%, #15102a 50%, #080511 100%);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.event_header{
+    margin: 40px 0;
+    text-align: center ;
+}
+
+.event_header h1{
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #8d0021, #8a2387, #00d2ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.event_header .tagline{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.detail_container{
+    max-width: 1200px;
+    margin:  auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.04);
+    gap: 40px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.poster{
+    text-align: center;
+    min-width: 300px;
+    flex: 1;
+
+}
+.poster img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.info_box{
+    flex: 1.2;
+    min-width: 300px;
+}
+.info_box h2 ,.info_box h3{
+    margin: 16px;
+    color: #ff007f;
+}
+
+.info_card{
+    padding: 15px 20px;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 14px;
+        border-left: 4px solid #ff007f;
+        margin-bottom: 20px;
+}
+
+.info_box p, .info_card p{
+    color: #d8d5dc;
+    line-height: 1.6;
+    margin: 8px 0;
+
+}
+
+.prizes{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+._prize{
+    background: linear-gradient(135deg, #f7b733, #fc112c);
+    color: #030303;
+    padding: 8px 16px;
+    border-radius: 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(247, 183, 51, 0.5);
+}
+
+.faculty_detail{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.faculty_detail strong{
+    padding: 20px;
+    font-weight: 1000;
+
+    }
+.faculty_name{
+    padding: 20px;
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+.student_cordinator{
+    padding: 20px;
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+.student_cordinator strong{
+    padding-right: 20px;
+    font-size: 1.3rem;
+}
+.action-section {
+    max-width: 1100px;
+    margin: 40px auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.action-section h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.action-section p {
+    color: #ffffff;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.reg-btn {
+    background: linear-gradient(135deg, #00c6ff, #08203d);
+    color: #fff;
+}
+
+.reg-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 114, 255, 0.5);
+}
+
+.whatsapp-btn {
+    background: linear-gradient(135deg, #11998e, #0b3a1d);
+    color: #fff;
+}
+
+.whatsapp-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(56, 239, 125, 0.5);
+}
+.back_button{
+    justify-content: center;
+    align-items: center;
+}
+
+.back_button button{
+    
+    padding: 9px;
+    border-radius: 20px;
+    background: rgb(29, 18, 46);
+    color: #ffffff;
+    font-size: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    
+
+}

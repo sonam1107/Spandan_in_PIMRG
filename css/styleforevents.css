@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --deep:  #063406;
+    --teal: #0b5560;
+    --panel: #0e6471;
+    --peach: #fcca92;
+    --cream: #fff4e6;
+    --gold: #f8a128;
+    --text: #d5eeec;
+
+}
+html, body{
+    font-family: sans-serif;
+    background-color: rgb(7, 6, 8);
+    color: #b313ab;
+}
+
+header button{
+    background-color: azure;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 6px;
+}
+header img{
+            width: 100%;
+            /* height: 1000px; */
+            display: block;
+            margin-bottom: 80px;
+            object-fit: cover;
+}
+p{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,128 @@
+/* extra styles for the event pages (countdown, zoom, call links) on top of it_quize.css */
+
+.poster img{
+    cursor: zoom-in;
+    transition: transform 0.3s ease;
+}
+.poster img:hover{
+    transform: scale(1.02);
+}
+.zoom_hint{
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #d8d5dc;
+}
+
+.countdown_box{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.time_box{
+    flex: 1;
+    min-width: 70px;
+    text-align: center;
+    padding: 12px 8px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 3px solid #ff007f;
+    border-radius: 14px;
+}
+.time_box span{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #00d2ff;
+}
+.time_box p{
+    margin: 0;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #d8d5dc;
+}
+.event_over{
+    width: 100%;
+    padding: 12px 16px;
+    border-left: 4px solid #ff007f;
+    border-radius: 14px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.highlight_list{
+    margin: 0 0 25px 40px;
+    color: #d8d5dc;
+    line-height: 1.8;
+}
+
+.call_link{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(135deg, #11998e, #0b3a1d);
+    transition: transform 0.3s ease;
+}
+.call_link:hover{
+    transform: translateY(-2px);
+}
+
+.info_box .action-section{
+    margin: 25px 0;
+    padding: 25px;
+}
+
+._prize{
+    transition: transform 0.3s ease;
+}
+._prize:hover{
+    transform: translateY(-3px) scale(1.05);
+}
+
+.lightbox{
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    cursor: zoom-out;
+}
+.lightbox.show{
+    display: flex;
+}
+.lightbox img{
+    max-width: 95%;
+    max-height: 95vh;
+    border-radius: 14px;
+}
+
+.soon_text{
+    margin: 0 16px 25px;
+    padding: 10px 16px;
+    border-left: 4px solid #00d2ff;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    font-style: italic;
+}
+
+.thought_box{
+    margin: 25px 0;
+    padding: 18px 22px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba(138, 35, 135, 0.35), rgba(0, 210, 255, 0.15));
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.thought_box h3{
+    margin: 0 0 8px;
+    color: #00d2ff;
+}
+.thought_box p{
+    margin: 0;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #ffffff;
+}

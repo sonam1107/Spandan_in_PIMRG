@@ -1,0 +1,6 @@
+# saved web pages / editor / OS junk
+*_files/
+.DS_Store
+Thumbs.db
+.vscode/
+node_modules/
